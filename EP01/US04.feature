@@ -8,7 +8,7 @@ Feature: US04: Como usuario, quiero poder iniciar sesión con mi cuenta de Googl
 
     Examples:
       | Escenario        | Correo Electrónico       | Contraseña   |
-      |------------------|--------------------------|--------------|
+      |------------------|--------------------------|--------------| 
       | Escenario 1      | usuario1@gmail.com       | Password123! |
       | Escenario 2      | otro_usuario@gmail.com   | SecurePass!  |
 
