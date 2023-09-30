@@ -4,7 +4,7 @@ Feature: US05: Como usuario, quiero recibir un correo electrónico de verificaci
     Given que un usuario se ha registrado en la aplicación
     When el usuario completa el proceso de registro proporcionando su dirección de correo electrónico "usuario@example.com"
     And el sistema envía un correo electrónico de verificación a la dirección proporcionada
-    Then el usuario recibe el correo electrónico de verificación, lo abre y sigue el enlace o instrucciones para confirmar y verificar su cuenta.
+    Then el usuario recibe el correo electrónico de verificación, lo abre y sigue el enlace o instrucciones para confirmar y verificar su cuenta. 
 
     Examples:
       | Escenario        | Correo Electrónico   |               Mensaje            |
