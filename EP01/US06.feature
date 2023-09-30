@@ -18,7 +18,7 @@ Feature: US06: Como usuario, quiero recuperar mi cuenta en caso de haber sido bl
     And sigue el proceso de recuperación proporcionando información de seguridad y detalles adicionales para demostrar su identidad
     Then el sistema verifica la información proporcionada y toma medidas para ayudar al usuario a recuperar el control de su cuenta, como cambiar la contraseña o habilitar medidas de seguridad adicionales.
 
-    Examples:
+    Examples: 
       | Escenario        | Usuario             |
       |------------------|----------------------|
       | Escenario 3      | usuario3@example.com |
