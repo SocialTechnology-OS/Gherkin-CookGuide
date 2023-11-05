@@ -4,7 +4,8 @@ Feature: US04: Como usuario, quiero poder iniciar sesión con mi cuenta de Googl
     Given que el usuario desea iniciar sesión
     When el usuario selecciona la opción de iniciar sesión con su cuenta de Google en la página de inicio de sesión
     And proporciona las credenciales de su cuenta de Google (correo y contraseña)
-    Then el sistema verifica las credenciales y permite al usuario iniciar sesión exitosamente con su cuenta de Google.
+    Then el sistema backend verifica las credenciales enviadas concuerden con un cuenta registrada del dominio de Google
+    And Mostrara un mensaje de que el inicio de seión fue un exito.
 
     Examples:
       | Escenario        | Correo Electrónico       | Contraseña   |
@@ -16,7 +17,8 @@ Feature: US04: Como usuario, quiero poder iniciar sesión con mi cuenta de Googl
     Given que el usuario desea iniciar sesión
     When el usuario selecciona la opción de iniciar sesión con su cuenta de Facebook en la página de inicio de sesión
     And proporciona las credenciales de su cuenta de Facebook (correo y contraseña)
-    Then el sistema verifica las credenciales y permite al usuario iniciar sesión exitosamente con su cuenta de Facebook.
+     Then el sistema backend verifica las credenciales enviadas concuerden con un cuenta registrada del dominio de Meta
+      And Mostrara un mensaje de que el inicio de seión fue un exito.
 
     Examples:
       | Escenario        | Correo Electrónico         | Contraseña   |
